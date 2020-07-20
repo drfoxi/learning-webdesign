@@ -1,78 +1,24 @@
-
-/* form */
-form{
-    font-family:Tahoma;
-    margin-top: 100px ;
-    padding: 10px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.form-elemnt{
-    margin-bottom: 10px;
+nav{
+    width: 100%;
 }
 
-.form-elemnt input{
+nav .container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+nav #nav-brand{
     display: block;
-    border-radius: 10px;
-    border: solid 1px black;
-    width: 80%;
-    height: 30px;
-    margin-top: 5px;
+    width: 30%;
+    float: left;
 }
 
-.form-elemnt input:focus{
-outline: none;
+nav ul{
+    width: 70%;
+    float: right;
 }
-
-.form-elemnt textarea{
-    display: block;
-    width: 80%;
-    border-radius: 10px;
-    border: solid 1px black;
-    margin-top: 5px;
-}
-
-.form-elemnt textarea:focus{
-    outline: none;
-}
-
-input[type="submit"]{
-    display: block;
-    width: 80%;
-    height: 30px;
-    border-radius: 10px;
-    border: none;
-    background-color: green;
-    color: white;
-}
-input[type="submit"]:hover{
-background-color: darkgreen;
-}
-
-.b-1{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
- width: 32%;
-float: left;
-box-sizing: border-box;
-border: solid darkgray 1px;
-padding: 5px;
-margin: 5px;
-}
-
-.clear-fix{
-    clear: both;
-}
-
-.d-2{
-    margin-top: 50px;
-    border: solid #333 2px;
-    width: 960px;
-    height: 500px;
-}
-
-.po-1{
-    position: fixed;
-    top: 50%;
-
-
-}
-
