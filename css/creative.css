@@ -8,6 +8,12 @@
     margin: 0 auto;
 }
 
+.underline {
+    display: inline-block;
+    width: 60px;
+    border: 1px solid #f4623a;
+    margin: 30px 0;
+}
 
 /* start nav */
 
@@ -20,7 +26,7 @@ nav {
 }
 
 nav #nav-brand {
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: 1.25em;
     font-weight: 700;
     text-decoration: none;
@@ -50,7 +56,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: 1.25em;
     font-weight: 700;
     text-decoration: none;
@@ -62,13 +68,11 @@ nav ul li a:hover {
     color: white;
 }
 
-
 /* end nav */
 
 .clear-fix {
     clear: both;
 }
-
 
 /* start headr */
 
@@ -86,21 +90,14 @@ header .row {
 }
 
 header h1 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-weight: 700;
     font-size: 3.5rem;
     color: white;
 }
 
-header span {
-    display: inline-block;
-    width: 60px;
-    border: 1px solid #f4623a;
-    margin: 30px 0;
-}
-
 header p {
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: 1.15em;
     font-weight: 300;
     line-height: 1.5;
@@ -114,7 +111,7 @@ header #heading-link {
     margin-top: 15px;
     color: white;
     background-color: #f4623a;
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: 0.85em;
     text-decoration: none;
     border-radius: 25px;
@@ -124,3 +121,263 @@ header #heading-link {
 header #heading-link:hover {
     background-color: #f24516;
 }
+
+/* end headr */
+
+/* start sec info */
+
+section#section-info {
+    width: 100%;
+    height: 450px;
+    background-color: #f4623a;
+}
+
+section#section-info .row {
+    text-align: center;
+    padding: 100px 0;
+}
+
+section#section-info .info-h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+section#section-info .underline {
+    border: solid white 1px;
+}
+
+section#section-info .info-p {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0 250px;
+}
+
+section#section-info #info-link {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 0.85em;
+    font-weight: 700;
+    display: inline-block;
+    background-color: #f8f9fa;
+    padding: 20px 35px;
+    margin-top: 15px;
+    border-radius: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+section#section-info #info-link:hover {
+    background-color: #e2e6ea;
+}
+
+/* end sec info */
+
+/* start sec services */
+
+section#section-services {
+    width: 100%;
+}
+
+section#section-services .row {
+    text-align: center;
+    padding: 150px 0;
+    width: 100%;
+}
+
+section#section-services h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+section#section-services .service-iteam {
+    width: 100%;
+}
+
+section#section-services .iteam {
+    display: inline-block;
+    width: 24%;
+    padding: 25px 25px;
+    box-sizing: border-box;
+}
+
+section#section-services .iteam h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 20px;
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+section#section-services .iteam p {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #6c757d;
+}
+
+section#section-services .iteam .fas {
+    color: #f4623a;
+    font-size: 5rem;
+}
+
+/* end sec services */
+
+/* start sec portfolio */
+
+section#section-prtfolio {
+    width: 100%;
+}
+
+section#section-prtfolio ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+section#section-prtfolio ul li {
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    position: relative;
+    line-height: 0;
+    cursor: pointer;
+}
+
+section#section-prtfolio ul li:hover .prt-hover {
+    display: block;
+}
+
+section#section-prtfolio ul li img {
+    width: 100%;
+}
+
+section#section-prtfolio ul li .prt-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: normal;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 100px 0;
+    background-color: rgba(255, 85, 20, 0.7);
+}
+
+section#section-prtfolio ul li h4 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+}
+
+section#section-prtfolio ul li h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+/* end sec portfolio */
+
+.clear-fix {
+    clear: both;
+}
+
+/* start sec download */
+
+section#section-downlod {
+    width: 100%;
+    background-color: #343a40;
+}
+
+section#section-downlod .row {
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+section#section-downlod h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #e2e6ea;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+section#section-downlod a {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 0.85em;
+    font-weight: 500;
+    display: inline-block;
+    background-color: #f8f9fa;
+    padding: 20px 35px;
+    margin-top: 40px;
+    border-radius: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+section#section-downlod a:hover {
+    background-color: #e2e6ea;
+}
+/* end sec download */
+
+/* start sec contact */
+
+section#section-contact {
+    width: 100%;
+}
+
+section#section-contact .row {
+    text-align: center;
+    padding: 80px 50px;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+}
+
+section#section-contact h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:2.5rem;
+    font-weight: 200;
+}
+section#section-contact p {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:1.25rem;
+    color: #6c757d;
+}
+
+section#section-contact ul {
+    width: 100%;
+    list-style: none;
+    padding: 50px 0;
+}
+
+section#section-contact li {
+display: inline-block;
+margin: 80px;
+}
+
+section#section-contact li .fas {
+color: #6c757d;
+font-size: 3rem;
+padding-bottom: 20px;
+}
+/* end sec contact */
+
+/* start footer contact */
+footer .container{
+    text-align: center;
+    background-color: #f8f9fa;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:0.85rem;
+    color: #6c757d;
+    padding: 60px 30px;
+    width: 100%;
+    height: 80px;
+}
+/* end footer contact */
